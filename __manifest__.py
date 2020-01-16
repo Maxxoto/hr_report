@@ -13,7 +13,7 @@
 
     # always loaded
     'data': ['views/wizard_view.xml',],
-    # 'license': "MIT",
+    'license': "AGPL-3",
     'installable': True,
     'auto_install': False,
 }

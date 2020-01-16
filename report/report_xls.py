@@ -68,7 +68,7 @@ class PayrollReport(ReportXlsx):
     
     def get_gajiBonus10(self,id) :
         res = self.env['hr.payslip.line'].search([
-            ('code', '=', 'GBNS10'),
+            ('code', '=', 'GBNS_ABS'),
             ('slip_id', '=' , id),
             ])
         return res.amount
